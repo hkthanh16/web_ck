@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="testimonial.css" rel="stylesheet">
+    <link href="global.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div style="width: 100%;">
+        <!--  -->
+        <div style="position: sticky; box-shadow: 0 10px 20px #00000026; top: 0; z-index: 999;" class="bg-white">
+            <div class="bg-green d-flex">
+                <div style="padding: 10px 0px;" class="w-3/5 text-white m-auto">
+                    Giờ mờ cửa từ 7:00 đến 22:00 hàng ngày
+                </div>
+            </div>
+            <!-- DESKTOP -->
+            <div class="bg-white d-flex d-lg-block d-sm-none">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center">
+                    <img style="margin-right: 70px;" class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <div class="navbar">
+                        <a href="/web_ck/index.html">Trang chủ</a>
+                        <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        <div class="dropdown">
+                            <button class="dropbtn pointer" onclick="window.location='cua-hang.html'">Sản phẩm
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/hanh-bac.html">Hành</a>
+                                <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                <a href="/web_ck/toi.html">Tỏi</a>
+                                <a href="/web_ck/gung.html">Gừng</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/dich-vu.html'">Dịch vụ
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/kho-bai.html">Kho bãi</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/tin-tuc/index.html'">Tin tức
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                            </div>
+                        </div>
+                        <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: 5px; top: 5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                        <a style="padding: 8px; border-radius: 5px; margin-left: 16px;"
+                            class="text-white bg-green d-flex justify-center items-center">
+                            <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                            <span>0937082979</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOBILE -->
+            <div class="bg-white d-flex d-lg-none d-sm-block">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center justify-between">
+                    <button class="btn font-30" id="open-menu"><i class="fa fa-bars text-green" aria-hidden="true"></i></button>
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+
+                    <div class="right-nav">
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: -10px; top: -5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar d-lg-none d-sm-block" id="sidebar">
+                <div class="navbar bg-white text-center">
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <ul>
+                        <li>
+                            <a href="/web_ck/index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn pointer" onclick="window.location='/cua-hang.html'">Sản phẩm
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/hanh-bac.html">Hành</a>
+                                    <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                    <a href="/web_ck/toi.html">Tỏi</a>
+                                    <a href="/web_ck/gung.html">Gừng</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/dich-vu.html'">Dịch vụ
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/tin-tuc/index.html'">Tin tức
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                    <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        </li>
+                        <li class="pb-20">
+                            <a style="padding: 8px; border-radius: 5px; margin-left: 16px; margin-top: 14px;"
+                                class="text-white bg-green d-flex justify-center items-center">
+                                <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                                <span>0937082979</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="collapse-button" id="collapse-button">
+                    <i class="fa fa-chevron-left text-white" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div class="carousel">
+            <img src="/web_ck/hinhanh/cn.jpg" alt="" class="img-responsive">
+        </div>
+        <!--  -->
+        <div class="bg-white d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <div style="margin-bottom: 50px;" class="d-flex justify-center items-center flex-column">
+                    <p class="section-title">VỀ CHÚNG TÔI</p>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div class="flex-1 slider-container" style="z-index: 2;">
+                        <div class="slider">
+                            <div class="slide-item">
+                                <img src="/web_ck/hinhanh/slide-1.jpg" alt="">
+                            </div>
+                            <div class="slide-item">
+                                <img src="/web_ck/hinhanh/slide-2.jpg" alt="">
+                            </div>
+                            <div class="slide-item">
+                                <img src="/web_ck/hinhanh/slide-3.jpg" alt="">
+                            </div>
+                            <div class="slide-item">
+                                <img src="/web_ck/hinhanh/slide-4.jpg" alt="">
+                            </div>
+                            <div class="slide-item">
+                                <img src="/web_ck/hinhanh/slide-5.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="controller">
+                            <button onclick="prevSlide()"><img src="/web_ck/hinhanh/left-arrow.png" width="18" alt=""></button>
+                            <button onclick="nextSlide()"><img src="/web_ck/hinhanh/right-arrow.png" width="18" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="flex-1 relative ml-20"
+                        style="padding: 2rem; border: 3px solid gray; z-index: 1;">
+                        <span class="absolute bg-white" style="top: -1rem; padding: 0.5rem; ">Châu Nga Company.</span>
+                        <p>Châu Nga chuyên cung cấp thực phẩm an toàn, chất lượng với 100% tự nhiên, thân thiện với
+                            người tiêu dùng. Với sứ mệnh mang sự an toàn, hương vị khác biệt đến gian bếp của mọi
+                            gia đình Việt. Chúng tôi cam kết sẽ mang đến cho bạn sản phẩm hành, hành tây, tỏi, gừng…
+                            chất lượng tốt nhất và những trải nghiệm chuyên nghiệp về dịch vụ kho lạnh, kho bãi,…..
+
+                            Châu Nga Company luôn đồng hành cùng bạn với một cuộc sống an toàn và chất lượng..</p>
+                        <div class="d-flex justify-center items-center" style="margin-right: 150px; margin-top: 200px;">
+                            <img class="pointer" style="object-fit: cover; width: 131px; height: 100px;"
+                                src="/web_ck/hinhanh/gung.png"
+                                alt="">
+                            <div style="min-width: 1rem;"></div>
+                            <img class="pointer" style="object-fit: cover; width: 131px; height: 100px;"
+                                src="/web_ck/hinhanh/ha╠Çnh-ba╠å╠üc.png"
+                                alt="">
+                            <div style="min-width: 1rem;"></div>
+                            <img class="pointer" style="object-fit: cover; width: 131px; height: 100px;"
+                                src="/web_ck/hinhanh//hanhtay.png"
+                                alt="">
+                            <div style="min-width: 1rem;"></div>
+                            <img class="pointer" style="object-fit: cover; width: 131px; height: 100px;"
+                                src="/web_ck/hinhanh/pha╠én-bie╠ú╠ét-ha╠Çnh-ta╠éy-tq-vs-da╠Ç-la╠út.jpg"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="bg-gray d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <div style="margin-bottom: 50px;" class="d-flex justify-center items-center flex-column">
+                    <p class="section-title">DANH MỤC SẢN PHẨM</p>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+                </div>
+                <div class="d-flex justify-between items-center flex-wrap">
+                    <div class="col-3">
+                        <a href="/web_ck/hanh-bac.html"  class="bg-white">
+                            <img style="width: 100%; height: 251px; object-fit: cover; background-color: #ecd4c5;"
+                                src="/web_ck/hinhanh/hanh.png" alt="">
+                            <div style="padding: 50px 0 20px;" class="d-flex justify-center items-center bg-white">
+                                Hành
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="/web_ck/hanh-tay.html"  class="bg-white">
+                            <img style="width: 100%; height: 251px;object-fit: cover; background-color: #e7f2d8;"
+                                src="/web_ck/hinhanh/hanhtay.png" alt="">
+                            <div style="padding: 50px 0 20px;" class="d-flex justify-center items-center bg-white">
+                                Hành tây
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="/web_ck/toi.html"  class="bg-white">
+                            <img style="width: 100%; height: 251px;object-fit: cover; background-color: #f6edd0;"
+                                src="/web_ck/hinhanh/toi.png" alt="">
+                            <div style="padding: 50px 0 20px;" class="d-flex justify-center items-center bg-white">
+                                Tỏi
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-3">
+                        <a href="/web_ck/gung.html" class="bg-white">
+                            <img style="width: 100%; height: 251px;object-fit: cover; background-color: #c6e6f6;"
+                                src="/web_ck/hinhanh/gung.png" alt="">
+                            <div style="padding: 50px 0 20px;" class="d-flex justify-center items-center bg-white">
+                                Gừng
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="bg-white d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <div style="margin-bottom: 50px;" class="d-flex justify-center items-center flex-column">
+                    <p class="section-title">CHÚNG TÔI CÓ DỊCH VỤ</p>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+                </div>
+                <div class="d-flex justify-between items-center flex-wrap">
+                    <a href="/web_ck/kho-lanh.html" class="bg-white col-5" style="border: 1px solid gray; padding: 0">
+                        <img style="width: 100%; height: 238px; object-fit: cover; background-color: #ecd4c5;"
+                            src="/web_ck/hinhanh/kholanh.jpg" alt="">
+                        <div style="padding: 30px 0;" class="text-red d-flex justify-center items-center">
+                            KHO LẠNH
+                        </div>
+                    </a>
+                    <a href="/web_ck/kho-bai.html" class="bg-white col-5" style="border: 1px solid gray; padding: 0">
+                        <img style="width: 100%; height: 238px;object-fit: cover; background-color: #e7f2d8;"
+                            src="/web_ck/hinhanh/khobai.jpg" alt="">
+                        <div style="padding: 30px 0;" class="text-red d-flex justify-center items-center">
+                            KHO BÃI
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div style="background-image: url('/web_ck/hinhanh/background01.jpg'); background-repeat: no-repeat;
+        background-size: cover;" class="bg-white d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <div style="margin-bottom: 50px;" class="d-flex justify-center items-center flex-column">
+                    <p class="section-title text-white text-center">KHÁCH HÀNG NÓI VỀ CHÚNG TÔI</p>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o text-white"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+                </div>
+                <div class="d-flex justify-between items-center flex-wrap">
+                    <figure class="snip1157 col-3">
+                        <blockquote>Tôi là khách hàng lâu năm của Châu Nga.Hàng của công ty luôn cung ứng đầy đủ và vận chuyển nhanh chóng.
+                            Chính sách ưu đãi cho đại lý của Châu Nga cũng rất tốt.
+                            <div class="arrow"></div>
+                        </blockquote>
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample3.jpg"
+                            alt="sq-sample3" />
+                        <div class="author">
+                            <h5>A.Phát CT</h5>
+                        </div>
+                    </figure>
+                    <figure class="snip1157 hover col-3">
+                        <blockquote>Lượng sản phẩm Châu Nga cung cấp ổn định, và tôi bán khá chạy đặc biệt là tỏi Trung Quốc.
+                            <div class="arrow"></div>
+                        </blockquote>
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample27.jpg"
+                            alt="sq-sample27" />
+                        <div class="author">
+                            <h5>A Lợi <span></span></h5>
+                        </div>
+                    </figure>
+                    <figure class="snip1157 col-3">
+                        <blockquote> Hàng của Châu Nga luôn ổn định và giá cả tốt, phù hợp để hợp tác lâu dài.
+                            Cảm ơn công ty.
+                            <div class="arrow"></div>
+                        </blockquote>
+                        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/331810/sq-sample17.jpg"
+                            alt="sq-sample17" />
+                        <div class="author">
+                            <h5>Chị Hạnh </h5>
+                        </div>
+                    </figure>
+                    <figure class="snip1157 col-3">
+                        <blockquote> Và còn nhiều  khách hàng nữa đã đánh giá cao dịch vụ của chúng tôi...
+                            <div class="arrow"></div>
+                        </blockquote>
+                        <img src="/web_ck/hinhanh/cncompany.png"
+                            alt="sq-sample17" />
+                        <div class="author">
+                            <h5>Châu Nga </h5>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="bg-gray d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <div style="margin-bottom: 50px;" class="d-flex justify-center items-center flex-column">
+                    <p class="section-title">TIN MỚI NHẤT</p>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+                </div>
+                <div class="d-flex justify-between items-center flex-wrap">
+                    <a href="/web_ck/tin-tuc/tin-tuc-2.html" class="bg-white col-5" style="border: 1px solid gray; padding: 0">
+                        <img style="width: 100%; height: 238px; object-fit: cover; background-color: #ecd4c5;"
+                            src="/web_ck/hinhanh/new-2.jpeg" alt="">
+                        <div style="padding: 30px 0;" class="text-red d-flex justify-center items-center">
+                            Hành Tím Ấn Độ và Những Công Dụng Thần Kì.
+                        </div>
+                    </a>
+                    <a href="/web_ck/tin-tuc/tin-tuc-3.html" class="bg-white col-5" style="border: 1px solid gray; padding: 0">
+                        <img style="width: 100%; height: 238px;object-fit: cover; background-color: #e7f2d8;"
+                            src="/web_ck/hinhanh/khobai.jpg" alt="">
+                        <div style="padding: 30px 0;" class="text-red d-flex justify-center items-center">
+                            DỊCH VỤ CHO THUÊ KHO LẠNH MANG LẠI LỢI ÍCH GÌ?
+                        </div>
+                    </a>
+                  
+                </div>
+            </div>
+        </div>
+        <!--  -->
+        <div class="d-flex text-white footer">
+            <div class="m-auto w-3/5 section-container d-flex flex-column">
+                <div class="d-flex justify-between flex-wrap">
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ XUẤT NHẬP KHẨU CNCOMPAYNY</p>
+                        <p><strong>Address:</strong> 219A Ngô Chí Quốc - Khu phố 2 - phường Bình Chiểu - tp Thủ Đức - TP HCM</p>
+                        <p><strong>Hotline:</strong> 0937 082 979</p>
+                        <p><strong>Cskh:</strong> 0937 980 669</p>
+                        <p><strong>Email:</strong> cncompanymarket@gmail.com</p>
+                        <p><strong>Website:</strong> CNCOMPAYNY</p>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>THÔNG TIN CẦN BIẾT</p>
+                        <ul>
+                            <li><a href="/web_ck/index.html" class="text-white">Trang chủ</a></li>
+                            <li><a href="/web_ck/gioithieu.html" class="text-white">Giới thiệu</a></li>
+                            <li><a href="/web_ck/cua-hang.html" class="text-white">Sản phẩm</a></li>
+                            <li><a href="/web_ck/dich-vu.html" class="text-white">Dịch vụ</a></li>
+                            <li><a href="/web_ck/tin-tuc/index.html" class="text-white">Tin tức</a></li>
+                            <li><a href="/web_ck/lien-he.html" class="text-white">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>ĐĂNG KÝ NHẬN TIN</p>
+                        <p>Hãy nhanh tay đăng ký để nhận ưu đãi hấp dẫn từ Châu Nga nào!</p>
+                        <div class="inputs">
+                            <input type="text" placeholder="Email" />
+                            <span class="iconinput fa fa-telegram"></span>
+                        </div>
+                        <p>MẠNG XÃ HỘI</p>
+                        <div class="d-flex items-center">
+                            <div class="social-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</body>
+<script src="/web_ck/script/main.js"></script>
+</html>

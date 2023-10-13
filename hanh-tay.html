@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hành Tây</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="testimonial.css" rel="stylesheet">
+    <link href="global.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div style="width: 100%;">
+        <!--  -->
+        <div style="position: sticky; box-shadow: 0 10px 20px #00000026; top: 0; z-index: 999;" class="bg-white">
+            <div class="bg-green d-flex">
+                <div style="padding: 10px 0px;" class="w-3/5 text-white m-auto">
+                    Giờ mờ cửa từ 7:00 đến 22:00 hàng ngày
+                </div>
+            </div>
+            <!-- DESKTOP -->
+            <div class="bg-white d-flex d-lg-block d-sm-none">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center">
+                    <img style="margin-right: 70px;" class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <div class="navbar">
+                        <a href="/web_ck/index.html">Trang chủ</a>
+                        <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        <div class="dropdown">
+                            <button class="dropbtn pointer" onclick="window.location='cua-hang.html'">Sản phẩm
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/hanh-bac.html">Hành</a>
+                                <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                <a href="/web_ck/toi.html">Tỏi</a>
+                                <a href="/web_ck/gung.html">Gừng</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/dich-vu.html'">Dịch vụ
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/kho-bai.html">Kho bãi</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/tin-tuc/index.html'">Tin tức
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                            </div>
+                        </div>
+                        <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: 5px; top: 5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                        <a style="padding: 8px; border-radius: 5px; margin-left: 16px;"
+                            class="text-white bg-green d-flex justify-center items-center">
+                            <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                            <span>0937082979</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOBILE -->
+            <div class="bg-white d-flex d-lg-none d-sm-block">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center justify-between">
+                    <button class="btn font-30" id="open-menu"><i class="fa fa-bars text-green" aria-hidden="true"></i></button>
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+
+                    <div class="right-nav">
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: -10px; top: -5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar d-lg-none d-sm-block" id="sidebar">
+                <div class="navbar bg-white text-center">
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <ul>
+                        <li>
+                            <a href="/web_ck/index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn pointer" onclick="window.location='cua-hang.html'">Sản phẩm
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/hanh-bac.html">Hành</a>
+                                    <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                    <a href="/web_ck/toi.html">Tỏi</a>
+                                    <a href="/web_ck/gung.html">Gừng</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/web_ck/dich-vu.html'">Dịch vụ
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/web_ck/tin-tuc/index.html'">Tin tức
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                    <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        </li>
+                        <li class="pb-20">
+                            <a style="padding: 8px; border-radius: 5px; margin-left: 16px; margin-top: 14px;"
+                                class="text-white bg-green d-flex justify-center items-center">
+                                <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                                <span>0937082979</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="collapse-button" id="collapse-button">
+                    <i class="fa fa-chevron-left text-white" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            style="background-color: #2d773b; display: flex; flex-direction: column; align-items: center; color: white; padding-top: 80px;">
+            <p>HÀNH TÂY</p>
+            <img src="/web_ck/hinhanh/banner-con.jpg" alt="">
+        </div>
+        <div class="d-flex text-white footer bg-white" style="background-color: white;">
+            <div class="m-auto w-3/5 section-container d-flex flex-column">
+                <div style="display: flex; justify-content: center;" class="product-detail flex-wrap">
+                    <div class="image-wrapper col-6">
+                        <img src="/web_ck/hinhanh/ha╠Çnh-ta╠éy-TQ.jpeg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <div style="display: flex; flex-direction: column; color: black;">
+                            <p class="fw-bold pb-20">HÀNH TÂY</p>
+                            <p class="pb-20">Danh mục: <span style="color: red">Hành</span></p>
+                            <p style="color: red;" class="fw-bold pb-20">LIÊN HỆ</p>
+                            <p style="border-top: 1px solid rgb(189, 189, 189); border-bottom: 1px solid rgb(189, 189, 189); padding: 1rem 0;">Trong các bữa cơm của gia đình bạn, những nguyên liệu như hành và tỏi có lẽ xuất hiện thường
+                                xuyên và không thể thiếu. Tuy nhiên, giữa hành lá, hành tây, hành tây và tỏi, loại nào bổ
+                                dưỡng hơn thì có lẽ vẫn còn nhiều người chưa biết. Bài viết dưới đây sẽ giúp bạn giải đáp
+                                những thắc mắc đó.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-flex text-white footer bg-white" style="background-color: white;">
+            <div class="m-auto w-3/5 section-container d-flex flex-column">
+                <div style="display: flex; justify-content: center; border-top: 1px solid rgb(188, 188, 188); flex-wrap: wrap;">
+                    <div class="col-3">
+                        <div style="display: flex; flex-direction: column; color: black; width: 250px;">
+                            <div style="padding: 20px; border: 1px solid rgb(188, 188, 188);">MÔ TẢ</div>
+                            <div style="padding: 20px; border: 1px solid rgb(188, 188, 188);">ĐÁNH GIÁ</div>
+                        </div>
+                    </div>
+                    <div class="col-9">
+                        <div style="display: flex; flex-direction: column; color: black; margin-left: 20px; flex: 1">
+                            <p style="padding: .5rem 0;">
+                                <h2 class="">Mô tả</h2>
+                                <h2>HÀNH TÂY CHỨA NHIỀU DƯỠNG CHẤT NHƯ VITAMIN C, VITAMIN B6, BIOTIN, A XÍT FOLIC, CHROMIUM, CAN XI VÀ CHẤT XƠ TỐT CHO SỨC KHỎE.</h2>
+                                <br>
+                                <h4 class="fw-bold">Cải thiện sức khỏe tim mạch.</h4>
+                                <br>
+                                Ăn hành tây giúp giảm cholesterol và triglyceride. Hợp chất lưu huỳnh trong củ hành có tác
+                                dụng chống máu vón cục. Quercetin ngăn ngừa xơ cứng động mạch bằng cách loại bỏ hình thành
+                                mảng bám và làm giảm nguy cơ đau tim.
+                                <br>
+                                Điều trị các vấn đề về hô hấp. Hoạt động kháng viêm của hành tây giúp nới lỏng các cơ đường
+                                hô hấp và làm giảm hen suyễn cùng viêm phế quản. Nó cũng có hiệu quả trong việc ngăn ngừa
+                                ho, cảm lạnh, cúm, hắt hơi và chảy nước mũi.
+                                <br>
+                                <br>
+                                <h4 class="fw-bold">Đẩy lùi bệnh tật do thực phẩm.</h4>
+                                Tác dụng kháng khuẩn của hành tây giúp điều trị bệnh do thực phẩm gây ra từ việc nhiễm vi
+                                khuẩn. Các chất hóa học thực vật có trong hành tây làm giảm nguy cơ loét dạ dày.
+                                <br>
+                                Nguồn chất xơ dồi dào trong hành tây chữa bệnh táo bón hữu hiệu và thúc đẩy sự phát triển
+                                của lợi khuẩn trong ruột. Ăn một củ hành mỗi ngày sẽ tránh táo bón.
+                                <br>
+                                <br>
+                                <h4 class="fw-bold">Cải thiện triệu chứng lao.</h4>
+                                hành tây có tính sát trùng cũng như sở hữu đặc tính kháng khuẩn. Nó có thể làm vô hiệu hóa
+                                vi khuẩn gây bệnh lao. Ăn hành cùng muối đem lại hiệu quả cao hơn.
+                                <br>
+                                Tăng tiết sữa mẹ. Ăn hành tươi có tác dụng tăng lượng sữa ở người mẹ đang cho con bú. Cần
+                                tham khảo thêm ý kiến của bác sĩ, để biết cách ăn cho phù hợp.
+                                <br>
+                                <br>
+                                <h4 class="fw-bold">Kiểm soát huyết áp.</h4>
+                                hành tây có lượng calo thấp, ít natri và không chứa chất béo. Ăn hành giúp tăng độ đàn hồi
+                                của mạch máu và có hiệu quả trong việc làm giảm huyết áp.
+                                <br>
+                                <br>
+                                <h4 class="fw-bold">Ăn 1 củ hành tây mỗi ngày giúp giải độc cơ thể, đồng thời giúp thanh lọc máu.</h4>
+                                <i><b>“Thuốc” chống ung thư.</b> Các chất hóa học thực vật disulphide, trisulphide, cepaene và
+                                    quercetin trong hành tây có tác dụng làm giảm viêm, ngừa ung thư. hành tây còn giúp cải
+                                    thiện các vấn đề về tiêu hóa bao gồm ăn mất ngon, khó tiêu, rối loạn dạ dày và túi mật.</i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="d-flex text-white footer">
+            <div class="m-auto w-3/5 section-container d-flex flex-column">
+                <div class="d-flex justify-between flex-wrap">
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ XUẤT NHẬP KHẨU CNCOMPAYNY</p>
+                        <p><strong>Address:</strong> 219A Ngô Chí Quốc - Khu phố 2 - phường Bình Chiểu - tp Thủ Đức - TP HCM</p>
+                        <p><strong>Hotline:</strong> 0937 082 979</p>
+                        <p><strong>Cskh:</strong> 0937 980 669</p>
+                        <p><strong>Email:</strong> cncompanymarket@gmail.com</p>
+                        <p><strong>Website:</strong> CNCOMPAYNY</p>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>THÔNG TIN CẦN BIẾT</p>
+                        <ul>
+                            <li><a href="/web_ck/index.html" class="text-white">Trang chủ</a></li>
+                            <li><a href="/web_ck/gioithieu.html" class="text-white">Giới thiệu</a></li>
+                            <li><a href="/web_ck/cua-hang.html" class="text-white">Sản phẩm</a></li>
+                            <li><a href="/web_ck/dich-vu.html" class="text-white">Dịch vụ</a></li>
+                            <li><a href="/web_ck/tin-tuc/index.html" class="text-white">Tin tức</a></li>
+                            <li><a href="/web_ck/lien-he.html" class="text-white">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>ĐĂNG KÝ NHẬN TIN</p>
+                        <p>Hãy nhanh tay đăng ký để nhận ưu đãi hấp dẫn từ Châu Nga nào!</p>
+                        <div class="inputs">
+                            <input type="text" placeholder="Email" />
+                            <span class="iconinput fa fa-telegram"></span>
+                        </div>
+                        <p>MẠNG XÃ HỘI</p>
+                        <div class="d-flex items-center">
+                            <div class="social-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</body>
+<script src="/web_ck/script/main.js"></script>
+</html>

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Liên hệ</title>
+    <link rel="stylesheet" href="reset.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="navbar.css" rel="stylesheet">
+    <link href="carousel.css" rel="stylesheet">
+    <link href="testimonial.css" rel="stylesheet">
+    <link href="global.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div style="width: 100%;">
+        <!--  -->
+        <div style="position: sticky; box-shadow: 0 10px 20px #00000026; top: 0; z-index: 999;" class="bg-white">
+            <div class="bg-green d-flex">
+                <div style="padding: 10px 0px;" class="w-3/5 text-white m-auto">
+                    Giờ mờ cửa từ 7:00 đến 22:00 hàng ngày
+                </div>
+            </div>
+            <!-- DESKTOP -->
+            <div class="bg-white d-flex d-lg-block d-sm-none">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center">
+                    <img style="margin-right: 70px;" class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <div class="navbar">
+                        <a href="/web_ck/index.html">Trang chủ</a>
+                        <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        <div class="dropdown">
+                            <button class="dropbtn pointer" onclick="window.location='cua-hang.html'">Sản phẩm
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/hanh-bac.html">Hành</a>
+                                <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                <a href="/web_ck/toi.html">Tỏi</a>
+                                <a href="/web_ck/gung.html">Gừng</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/dich-vu.html'">Dịch vụ
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/kho-bai.html">Kho bãi</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn" onclick="window.location='/web_ck/tin-tuc/index.html'">Tin tức
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                            </div>
+                        </div>
+                        <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: 5px; top: 5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                        <a style="padding: 8px; border-radius: 5px; margin-left: 16px;"
+                            class="text-white bg-green d-flex justify-center items-center">
+                            <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                            <span>0937082979</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- MOBILE -->
+            <div class="bg-white d-flex d-lg-none d-sm-block">
+                <div style="padding: 24px 0;" class="w-3/5 text-black m-auto d-flex items-center justify-between">
+                    <button class="btn font-30" id="open-menu"><i class="fa fa-bars text-green" aria-hidden="true"></i></button>
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+
+                    <div class="right-nav">
+                        <a href="#home">
+                            <i class="fa fa-search"></i>
+                        </a>
+                        <a href="/web_ck/cart.html" class="relative">
+                            <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                            <div style="width: 16px; height: 16px; border-radius: 50%; right: -10px; top: -5px; font-size: 0.7rem;"
+                                class="absolute bg-green text-white d-flex items-center justify-center">0</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar d-lg-none d-sm-block" id="sidebar">
+                <div class="navbar bg-white text-center">
+                    <img class="logo"
+                        src="/web_ck/hinhanh/cncompany.png" />
+                    <ul>
+                        <li>
+                            <a href="/web_ck/index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="/web_ck/gioithieu.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn pointer" onclick="window.location='cua-hang.html'">Sản phẩm
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/hanh-bac.html">Hành</a>
+                                    <a href="/web_ck/hanh-tay.html">Hành tây</a>
+                                    <a href="/web_ck/toi.html">Tỏi</a>
+                                    <a href="/web_ck/gung.html">Gừng</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/dich-vu.html'">Dịch vụ
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="window.location='/tin-tuc/index.html'">Tin tức
+                                    <i class="fa fa-caret-down"></i>
+                                </button>
+                                <div class="dropdown-content">
+                                    <a href="/web_ck/tin-tuc/kho-lanh.html">Kho lạnh</a>
+                                    <a href="/web_ck/tin-tuc/kho-bai.html">Kho bãi</a>
+                                    <a href="/web_ck/tin-tuc/nong-san.html">Nông sản</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="/web_ck/lien-he.html">Liên hệ</a>
+                        </li>
+                        <li class="pb-20">
+                            <a style="padding: 8px; border-radius: 5px; margin-left: 16px; margin-top: 14px;"
+                                class="text-white bg-green d-flex justify-center items-center">
+                                <i style="margin-right: 8px;" class="fa fa-phone"></i>
+                                <span>0937082979</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="collapse-button" id="collapse-button">
+                    <i class="fa fa-chevron-left text-white" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <!--  -->
+        <div
+            style="background-color: #2d773b; display: flex; flex-direction: column; align-items: center; color: white; padding-top: 80px;">
+            <h2 class="fw-bold">LIÊN HỆ</h2>
+            <img src="/web_ck/hinhanh/banner-dichvu.jpeg" alt="">
+        </div>
+        <div class="bg-white d-flex flex-column">
+            <div class="m-auto w-3/5 section-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.022547014541!2d106.71598247574485!3d10.885889457163657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d7f9e3850a63%3A0x1c12a9434dee205!2zMjE5IE5nLiBDaMOtIFF14buRYywgQsOsbmggQ2hp4buDdSwgVGjhu6cgxJDhu6ljLCBUaMOgbmggcGjhu5EgSOG7kyBDaMOtIE1pbmgsIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1697185844696!5m2!1svi!2s" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                <div class="row mt-3 pb-30" style="border-bottom: 1px solid rgb(184,184,184);">
+                    <div class="col-3 text-center">
+                        <div class="icon pb-20">
+                            <i class="fa fa-map-marker font-40 text-green-light" aria-hidden="true"></i>
+                        </div>
+                        <div class="title pb-20 fw-bold">
+                            ADDRESS
+                        </div>
+                        <div class="content">
+                            219A Ngô Chí Quốc - Khu phố 2 - phường Bình Chiểu - tp Thủ Đức - TP HCM
+                        </div>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <div class="icon pb-20">
+                            <i class="fa fa-phone font-40 text-green-light" aria-hidden="true"></i>
+                        </div>
+                        <div class="title pb-20 fw-bold">
+                            HOTLINE
+                        </div>
+                        <div class="content">
+                            0937082979
+                        </div>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <div class="icon pb-20">
+                            <i class="fa fa-envelope font-40 text-green-light" aria-hidden="true"></i>
+                        </div>
+                        <div class="title pb-20 fw-bold">
+                            EMAIL CONTACT
+                        </div>
+                        <div class="content">
+                            cncompanymarket@gmail.com
+                        </div>
+                    </div>
+
+                    <div class="col-3 text-center">
+                        <div class="icon pb-20">
+                            <i class="fa fa-globe font-40 text-green-light" aria-hidden="true"></i>
+                        </div>
+                        <div class="title pb-20 fw-bold">
+                            WEBSITE
+                        </div>
+                        <div class="content">
+                            CNCOMPAYNY
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form mt-3">
+                    <h2 class="fw-bold text-red font-40 text-center">ĐỂ LẠI TIN NHẮN CHO CHÚNG TÔI</h2>
+                    <div class="d-flex justify-center items-center">
+                        <div style="margin-right: 8px;" class="line-decorator"></div>
+                        <i class="fa-regular fa fa-snowflake-o text-green"></i>
+                        <div style="margin-left: 8px;" class="line-decorator"></div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <h2 class="fw-bold pb-20">CÔNG TY TNHH SẢN XUẤT THƯƠNG MAI DỊCH VỤ XUẤT NHẬP KHẨU CHÂU NGA</h2>
+                            <p>
+                                Với phương châm mang lại niềm tin cho khách hàng, chúng tôi luôn cố gắng mang lại chất lượng thật tốt cho mỗi sản phẩm của mình, niềm tin các bạn chính là nguồn động lực giúp Hoà Chu có thể vững bước phát triển.
+                                <br><br>
+                                <b>Address</b>: 219A Ngô Chí Quốc - Khu phố 2 - phường Bình Chiểu - tp Thủ Đức - TP HCM
+                                <br><br>
+                                <b>CSKH</b>: 0937082979
+                                <br><br>
+                                <b>Email</b>: cncompanymarket@gmail.com
+                                <br><br>
+                                <b>Website</b>: CNCOMPAYNY
+                            </p>
+                        </div>
+                        <div class="col-6">
+                            <div class="form">
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-6 py-5">
+                                            <input type="text" class="w-100" placeholder="Họ Tên">
+                                        </div>
+                                        <div class="col-6 py-5">
+                                            <input type="email" class="w-100" placeholder="Email">
+                                        </div>
+                                        <div class="col-6 py-5">
+                                            <input type="text" class="w-100" placeholder="Số điện thoại">
+                                        </div>
+                                        <div class="col-6 py-5">
+                                            <input type="text" class="w-100" placeholder="Địa chỉ">
+                                        </div>
+                                        <div class="col-12 py-5">
+                                            <textarea name="" placeholder="Nội dung" class="w-100" id="" cols="30" rows="10"></textarea>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <button type="submit">GỬI NGAY</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="d-flex text-white footer">
+            <div class="m-auto w-3/5 section-container d-flex flex-column">
+                <div class="d-flex justify-between flex-wrap">
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>CÔNG TY TNHH SẢN XUẤT THƯƠNG MẠI DỊCH VỤ XUẤT NHẬP KHẨU CNCOMPAYNY</p>
+                        <p><strong>Address:</strong> 219A Ngô Chí Quốc - Khu phố 2 - phường Bình Chiểu - tp Thủ Đức - TP HCM</p>
+                        <p><strong>Hotline:</strong> 0937 082 979</p>
+                        <p><strong>Cskh:</strong> 0937 980 669</p>
+                        <p><strong>Email:</strong> cncompanymarket@gmail.com</p>
+                        <p><strong>Website:</strong> CNCOMPAYNY</p>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>THÔNG TIN CẦN BIẾT</p>
+                        <ul>
+                            <li><a href="/web_ck/index.html" class="text-white">Trang chủ</a></li>
+                            <li><a href="/web_ck/gioithieu.html" class="text-white">Giới thiệu</a></li>
+                            <li><a href="/web_ck/cua-hang.html" class="text-white">Sản phẩm</a></li>
+                            <li><a href="/web_ck/dich-vu.html" class="text-white">Dịch vụ</a></li>
+                            <li><a href="/web_ck/tin-tuc/index.html" class="text-white">Tin tức</a></li>
+                            <li><a href="/web_ck/lien-he.html" class="text-white">Liên hệ</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-4" style="padding: 10px; line-height: 1.8rem;">
+                        <p>ĐĂNG KÝ NHẬN TIN</p>
+                        <p>Hãy nhanh tay đăng ký để nhận ưu đãi hấp dẫn từ Châu Nga nào!</p>
+                        <div class="inputs">
+                            <input type="text" placeholder="Email" />
+                            <span class="iconinput fa fa-telegram"></span>
+                        </div>
+                        <p>MẠNG XÃ HỘI</p>
+                        <div class="d-flex items-center">
+                            <div class="social-icon">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-google-plus" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                            </div>
+                            <div class="social-icon">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</body>
+<script src="/web_ck/script/main.js"></script>
+</html>
